@@ -62,7 +62,7 @@
                     <!-- <p>Only on Amazon <i class="fab fa-amazon fa-1x"></i></p> -->
 
                   </a>
-                  <a class="btn btn-link mt-4" href data-toggle="modal" data-target="#exampleModal">Read the back</a>
+                  <a class="btn btn-link mt-3 mb-5" href data-toggle="modal" data-target="#exampleModal">Read the back <i class="fal fa-undo ml-2"></i></a>
                 </div>
                 <div class="col-12 ">
                   <nav class="nav mx-4 text-right">
@@ -88,8 +88,8 @@
           </div>
           <div class="col-12">
             <div class="text-left">
-              <h2 class="text-uppercase">S.L.MacLellan</h2>
-              <p>Illustrations by <a href="https://www.facebook.com/tonzolaart/" target="_blank">Eric Tonzola</a> <a class="float-right" href="https://www.facebook.com/WorldHereafterTheLongRoad/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a></p>
+              <h2 class="text-uppercase"> <a href="https://www.facebook.com/WorldHereafterTheLongRoad/" target="_blank">S.L. MacLellan <i class="fab fa-facebook float-right"></i></a></h2>
+              <p>Illustrations by <a href="https://www.facebook.com/tonzolaart/" target="_blank">Eric Tonzola</a></p>
             </div>
           </div>
 
@@ -99,27 +99,28 @@
     </div>
 
     <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true"><i class="fas fa-window-close"></i></span>
-          </button>
+    <div class="modal modal-right fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"><i class="fas fa-window-close"></i></span>
+            </button>
+          </div>
+          <div class="modal-body text-right pt-0">
+            <img src="./images/the-long-road--rear.jpg" width class="img rear-cover-img float-right ml-2 mb-2" width="100px" alt="Back cover of the Long Road">
+            <p>It was fifty years ago when the Bombs fell and the world was brought to a screeching halt. But humanity is stubborn, and a new world is being built from the ashes of the Time Before.</p>
+            <p>Locke, surviving in this land is hard enough between the flesh-rending sandstorms, ravenous mutants, and the daily challenges of protecting a young child from a harsh world. While traveling along the Long Road - the only path to civilization - in search of revenge he is caught up in the machinations of an enigmatic warlord known only as “Phoenix.” To make matters worse, the warlord seems to know Locke… and he’s looking to slake the wasteland’s thirst with Locke’s blood. </p>
+            <p class="lead-2">Welcome to the World Hereafter…</p>
+          </div>
+          <div class="modal-footer">
+            <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+            <a href data-dismiss="modal">Back to cover <i class="fal fa-undo ml-2"></i></a>
+          </div>
         </div>
-        <div class="modal-body text-left">
-          <img src="./images/the-long-road--rear.jpg" width class="img rear-cover-img float-right ml-2 mb-2" width="100px" alt="Back cover of the Long Road">
-          <p>It was fifty years ago when the Bombs fell and the world was brought to a screeching halt. But humanity is stubborn, and a new world is being built from the ashes of the Time Before.</p>
-          <p>Locke, surviving in this land is hard enough between the flesh-rending sandstorms, ravenous mutants, and the daily challenges of protecting a young child from a harsh world. While traveling along the Long Road - the only path to civilization - in search of revenge he is caught up in the machinations of an enigmatic warlord known only as “Phoenix.” To make matters worse, the warlord seems to know Locke… and he’s looking to slake the wasteland’s thirst with Locke’s blood. </p>
-          <p>Welcome to the World Hereafter…</p>
-        </div>
-        <!-- <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div> -->
       </div>
     </div>
-  </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -128,5 +129,6 @@
     <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="./assets/js/vendor/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    
   </body>
 </html>

@@ -147,6 +147,16 @@ h1{
     -o-transform:scale(1,1.5); /* Opera */
     transform:scale(1,1.5); /* W3C */
 }
+.lead-2{
+  font-family: 'Teko', sans-serif;
+  font-family: 'Six Caps', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: white;
+  text-shadow: 0px 1px #443e3ef2;
+}
 
 .buy-now{
   background:rgba(248, 177, 46, .55);
@@ -165,17 +175,18 @@ box-shadow: 0px 6px 40px -5px rgba(91,56,46,1);
 }
 
 .modal-content{
-  background:rgba(233, 141, 32, .96);
+  border:0px;
+  border-radius: 0px;
 
-  
-  background:  rgba(228,138,47,1);
-  background:  -moz-linear-gradient(top, rgba(228,138,47,1) 3%, rgba(228,138,47,1) 39%, rgba(222,125,29,1) 100%);
-  background:  -webkit-gradient(left top, left bottom, color-stop(3%, rgba(228,138,47,1)), color-stop(39%, rgba(228,138,47,1)), color-stop(100%, rgba(222,125,29,1)));
-  background:  -webkit-linear-gradient(top, rgba(228,138,47,1) 3%, rgba(228,138,47,1) 39%, rgba(222,125,29,1) 100%);
-  background:  -o-linear-gradient(top, rgba(228,138,47,1) 3%, rgba(228,138,47,1) 39%, rgba(222,125,29,1) 100%);
-  background:  -ms-linear-gradient(top, rgba(228,138,47,1) 3%, rgba(228,138,47,1) 39%, rgba(222,125,29,1) 100%);
-  background:  linear-gradient(to bottom, rgba(228,138,47,1) 3%, rgba(228,138,47,1) 39%, rgba(222,125,29,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e48a2f', endColorstr='#de7d1d', GradientType=0 );
+  background: rgba(228,138,47,1);
+  background: -moz-linear-gradient(top, rgba(228,138,47,1) 59%, rgba(229,126,46,1) 64%, rgba(237,39,39,0.07) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(59%, rgba(228,138,47,1)), color-stop(64%, rgba(229,126,46,1)), color-stop(100%, rgba(237,39,39,0.07)));
+  background: -webkit-linear-gradient(top, rgba(228,138,47,1) 59%, rgba(229,126,46,1) 64%, rgba(237,39,39,0.07) 100%);
+  background: -o-linear-gradient(top, rgba(228,138,47,1) 59%, rgba(229,126,46,1) 64%, rgba(237,39,39,0.07) 100%);
+  background: -ms-linear-gradient(top, rgba(228,138,47,1) 59%, rgba(229,126,46,1) 64%, rgba(237,39,39,0.07) 100%);
+  background: linear-gradient(to bottom, rgba(228,138,47,1) 59%, rgba(229,126,46,1) 64%, rgba(237,39,39,0.07) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e48a2f', endColorstr='#ed2727', GradientType=0 );
+    
 
 
   text-shadow: none;
@@ -187,4 +198,57 @@ box-shadow: 0px 6px 40px -5px rgba(91,56,46,1);
 }
 .rear-cover-img{
   max-width:150px;
+}
+
+.btn-link {
+
+  font-weight: 400;
+  color: #dfdfdb;
+  background-color:transparent;
+
+}
+.btn-link:hover {
+  color: #dfdfdb;
+  background-color:transparent;
+
+}
+
+.modal.fade.modal-right .modal-dialog {
+  transform: translate(125%, 0px);
+}
+
+.modal.show.modal-right .modal-dialog {
+  transform: none;
+}
+
+@media only screen and (min-width : 575px) {
+  .modal-dialog{
+    margin:auto!important;
+  }
+}
+
+.modal-dialog{
+  margin:0px;
+  /* @ */
+  
+  /* padding: 10px; */
+  border: 10px solid #71604e;
+  background: #71593f url("http://api.thumbr.it/whitenoise-361x370.png?background=7c6958ff&noise=cc1d11&density=10&opacity=85") repeat fixed center; 
+
+}
+.modal-header{
+  background: #e48a2f;
+  /* background: red; */
+  border-top-left-radius: 15px;
+}
+.modal-body{
+  font-size: 13px;
+  text-shadow: 0px 1px #97959557;
+  
+}
+.modal-footer{
+  background: #71604e;
+}
+.fab.fa-facebook.float-right{
+  padding-top: 3px;
 }
