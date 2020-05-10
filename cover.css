@@ -275,7 +275,7 @@ box-shadow: 0px 6px 40px -5px rgba(91,56,46,1);
   
   /* padding: 10px; */
   border: 10px solid #71604e;
-  background: #71593f url("http://api.thumbr.it/whitenoise-361x370.png?background=7c6958ff&noise=cc1d11&density=10&opacity=85") repeat fixed center; 
+  background: #71593f url(images/whitenoise.png) repeat fixed center; 
 
 }
 .modal-header{
