@@ -295,3 +295,11 @@ box-shadow: 0px 6px 40px -5px rgba(91,56,46,1);
   padding-top: 3px;
 }
 
+.fa-book-alt{
+  color: #fa9a21;
+}
+
+.fa-cloud-download{
+  color: #1e1b22!important;
+  top:-6px;
+}
