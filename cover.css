@@ -296,10 +296,10 @@ box-shadow: 0px 6px 40px -5px rgba(91,56,46,1);
 }
 
 .fa-book-alt{
-  color: #fa9a21;
+  /* color: #fa9a21; */
 }
 
 .fa-cloud-download{
-  color: #1e1b228a!important;
+  color: #1a1a1a!important;
   top:-6px;
 }
